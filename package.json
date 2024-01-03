@@ -1,0 +1,23 @@
+{
+  "name": "formatingjs",
+  "version": "1.0.0",
+  "description": "library open source untuk formating string di javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikuKeii/formatingjs.git"
+  },
+  "keywords": [
+    "formating",
+    "string"
+  ],
+  "author": "miftakhuddin falaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kikuKeii/formatingjs/issues"
+  },
+  "homepage": "https://github.com/kikuKeii/formatingjs#readme"
+}
