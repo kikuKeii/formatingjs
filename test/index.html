@@ -1,0 +1,35 @@
+<script src="../dist/formattingjs.min.js"></script>
+
+<script>
+    const string = "Hello World!!";
+    const longString =
+        "Sebelum kematiannya, Heiter berhasil memasukkan manusia magang muda bernama Fern ke Frieren. Didorong oleh hasrat sang elf untuk mengumpulkan segudang mantra sihir, pasangan ini memulai perjalanan tanpa tujuan, mengunjungi kembali tempat-tempat yang pernah dikunjungi para pahlawan dahulu kala. Sepanjang perjalanan mereka, Frieren perlahan-lahan menghadapi penyesalannya atas hilangnya kesempatan untuk menjalin ikatan yang lebih erat dengan rekan-rekannya yang kini telah meninggal. - Source Frieren My Anime List";
+
+    console.log(FormattingJS.joinString(["Hello", "World", "!!"]));
+    console.log("\n");
+
+    console.log(FormattingJS.countCharacters(string));
+    console.log("\n");
+
+    console.log(FormattingJS.reverseString(string));
+    console.log("\n");
+
+    console.log(FormattingJS.cutString(string, 8));
+    console.log("\n");
+
+    console.log(FormattingJS.currencyFormat(100000, "id-ID", "currency", "IDR"));
+    console.log("\n");
+
+    console.log(FormattingJS.replaceString(longString, "Frieren", "Elf", false));
+    console.log("\n");
+
+    console.log(FormattingJS.replaceString(longString, "Frieren", "Elf"));
+    console.log("\n");
+
+    var body = longString;
+    body = FormattingJS.replaceString(body, "mati", "ma*i", true);
+    body = FormattingJS.replaceString(body, "hasrat", "has*at", true);
+    console.log(body);
+    console.log("\n");
+
+</script>
