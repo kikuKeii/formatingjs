@@ -1,6 +1,6 @@
 {
   "name": "formatingjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "library open source untuk formating string di javascript",
   "main": "src/index.js",
   "scripts": {
